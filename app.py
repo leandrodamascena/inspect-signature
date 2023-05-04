@@ -30,3 +30,9 @@ ec2_list: str = build_ec2_list("ec2_list", ec2_client)
 
 #Flush to disk
 builder.flush()
+
+
+def leo(x: str) -> int:
+    return x
+
+print(leo("a"))
