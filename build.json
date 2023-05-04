@@ -1,0 +1,26 @@
+[
+    {
+        "function_name": "create_person",
+        "personal_data": {
+            "<class 'app_types.PersonalData'>": "(name: str, age: int) -> None"
+        },
+        "education": {
+            "<class 'app_types.Education'>": "(school: str, grade: float) -> None"
+        },
+        "return": {
+            "<class 'app_types.FullData'>": "(name: str, age: int, school: str, grade: float) -> None"
+        }
+    },
+    {
+        "function_name": "build_ec2_list",
+        "name": {
+            "<class 'str'>": "builtin"
+        },
+        "boto_client": {
+            "<class 'boto3.session.Session'>": "(aws_access_key_id=None, aws_secret_access_key=None, aws_session_token=None, region_name=None, botocore_session=None, profile_name=None)"
+        },
+        "return": {
+            "<class 'str'>": "builtin"
+        }
+    }
+]

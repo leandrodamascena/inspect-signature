@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "builder-example"
+version = "0.1.0"
+description = ""
+authors = ["Leandro Damascena <leandro.damascena@gmail.com>"]
+readme = "README.md"
+packages = [{include = "builder_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+typing-extensions = "^4.5.0"
+boto3 = "^1.26.127"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.2.0"
+mypy-boto3 = "^1.26.127"
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
